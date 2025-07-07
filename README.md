@@ -125,4 +125,3 @@ dynamic_query.execute::<Atelier>(&pool, datas_from_front)
 ## Résumé
 
 ![Diagramme du module](QueryEngine.png "Query Engine")
-# sql_query_engine
