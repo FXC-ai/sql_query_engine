@@ -1,0 +1,12 @@
+[package]
+name = "sql_query_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1.11.1"
+rex = "0.1.0"
+rust_decimal = "1.37.2"
+sqlx = { version ="0.8.6", features = ["postgres", "chrono", "runtime-tokio-rustls", "uuid", "rust_decimal"] }
+sqlx-core = "0.8.6"
+tokio = { version = "1.45.1", features = ["full"]}
